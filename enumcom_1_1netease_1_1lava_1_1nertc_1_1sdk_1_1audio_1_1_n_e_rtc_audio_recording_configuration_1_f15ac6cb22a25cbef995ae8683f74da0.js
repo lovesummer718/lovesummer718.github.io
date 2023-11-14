@@ -1,6 +1,0 @@
-var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_recording_configuration_1_f15ac6cb22a25cbef995ae8683f74da0 =
-[
-    [ "MIXED_RECORDING_AND_PLAYBACK", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_recording_configuration_1_f15ac6cb22a25cbef995ae8683f74da0.html#a7f7c54bef1cd64036ff3d4e4268f476d", null ],
-    [ "PLAYBACK", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_recording_configuration_1_f15ac6cb22a25cbef995ae8683f74da0.html#afadd9f1e9535418fb69151a873c36eff", null ],
-    [ "RECORDING", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_recording_configuration_1_f15ac6cb22a25cbef995ae8683f74da0.html#ae64a0c697b10c5323c51b5c227b7a66b", null ]
-];

@@ -1,6 +1,0 @@
-var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_encoded_frame_1_1_n_e_rtc_audio_pay_load_type =
-[
-    [ "NERtcAudioPayLoadType", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_encoded_frame_1_1_n_e_rtc_audio_pay_load_type.html#a880ad7982135020839cfc720a8ef42cf", null ],
-    [ "AUDIO_PAY_LOAD_TYPE_OPUS", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_encoded_frame_1_1_n_e_rtc_audio_pay_load_type.html#a9573d35a115d23e4bd6e420856649275", null ],
-    [ "intValue", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_encoded_frame_1_1_n_e_rtc_audio_pay_load_type.html#aa6b3523208eaf70b1a48bfe37ed95730", null ]
-];

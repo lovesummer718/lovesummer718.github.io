@@ -1,8 +1,0 @@
-var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_virtual_background_source_state_reason =
-[
-    [ "VBS_STATE_REASON_COLOR_FORMAT_NOT_SUPPORTED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_virtual_background_source_state_reason.html#aa6f99981319c1543205cf50cc4b67edc", null ],
-    [ "VBS_STATE_REASON_DEVICE_NOT_SUPPORTED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_virtual_background_source_state_reason.html#a10d1f5a77a8d2b7236da309e080e94ce", null ],
-    [ "VBS_STATE_REASON_IMAGE_FORMAT_NOT_SUPPORTED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_virtual_background_source_state_reason.html#ac3f9aa71d480f1e4374ea61ffa3d2194", null ],
-    [ "VBS_STATE_REASON_IMAGE_NOT_EXIST", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_virtual_background_source_state_reason.html#ae0519f3292f2a9f383d96c48283d72fb", null ],
-    [ "VBS_STATE_REASON_SUCCESS", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_virtual_background_source_state_reason.html#ac6231b966a8ca9126633554d9e1f07d2", null ]
-];

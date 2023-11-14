@@ -24,12 +24,9 @@
 */
 var NAVTREE =
 [
-  [ "NERtc Android SDK", "index.html", [
+  [ "NERtc iOS SDK", "index.html", [
     [ "简介", "index.html", null ],
     [ "弃用列表", "deprecated.html", null ],
-    [ "包", "namespaces.html", [
-      [ "包", "namespaces.html", "namespaces_dup" ]
-    ] ],
     [ "类", "annotated.html", [
       [ "类列表", "annotated.html", "annotated_dup" ],
       [ "类索引", "classes.html", null ],
@@ -37,7 +34,19 @@ var NAVTREE =
       [ "类成员", "functions.html", [
         [ "全部", "functions.html", "functions_dup" ],
         [ "函数", "functions_func.html", "functions_func" ],
-        [ "变量", "functions_vars.html", "functions_vars" ]
+        [ "属性", "functions_prop.html", "functions_prop" ]
+      ] ]
+    ] ],
+    [ "文件", "files.html", [
+      [ "文件列表", "files.html", "files_dup" ],
+      [ "文件成员", "globals.html", [
+        [ "全部", "globals.html", "globals_dup" ],
+        [ "函数", "globals_func.html", null ],
+        [ "变量", "globals_vars.html", null ],
+        [ "类型定义", "globals_type.html", null ],
+        [ "枚举", "globals_enum.html", null ],
+        [ "枚举值", "globals_eval.html", "globals_eval" ],
+        [ "宏定义", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -45,13 +54,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"classcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_ex.html#accc5b2972f6e71a8f27231ea230361e0",
-"classcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1channel_1_1_n_e_rtc_channel.html#a312298f0950182a9844562c8bb359e40",
-"classcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_external_video_renderer_wrapper.html#a6661e8941bfc0eb0eebe0f33c6f18d35",
-"enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_user_transcoding_1_1_57176d24cff05f00bb8fc7b93486c81b.html#a285dd6abf8806978e75a2d4ddfb66de0",
-"interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_audio_bluetooth_profile.html#aeec52d048b211c02863ca0e78d9b9b4f",
-"interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_local_video_watermark_state.html#addc9b6f18a18b742ed79379f30fdb5fb"
+"_i_n_e_rtc_channel_8h.html",
+"_n_e_rtc_engine_enum_8h.html#a6d8a84fbaa737e51993f9c9110b60ba8ab3a66df66e9c20383dd145db4e7a5186",
+"_n_e_rtc_engine_error_code_8h.html#a6248a12ea68e068ca62ea149eea2eacda7da3afe348312594e645895abe8df920",
+"interface_n_e_rtc_audio_frame_request_format.html#ada71e01b9922b2d5ba2793c35d6506d8",
+"interface_n_e_rtc_server_addresses.html#a28e9df842b8f33cd2c325a3d1ffba478",
+"protocol_i_n_e_rtc_engine-p.html",
+"protocol_n_e_rtc_engine_audio_session_observer-p.html#a57b56e0d4bdb5fffc7eff60d1a6e40a7"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';

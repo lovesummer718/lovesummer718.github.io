@@ -1,6 +1,0 @@
-var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_lastmile_result =
-[
-    [ "LASTMILE_PROBE_RESULT_COMPLETE", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_lastmile_result.html#a4a9a24f25f4919224de9155cca15ca0a", null ],
-    [ "LASTMILE_PROBE_RESULT_INCOMPLETE_NO_BWE", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_lastmile_result.html#a0722b766add14f1b3b63712ff99ef3d3", null ],
-    [ "LASTMILE_PROBE_RESULT_UNAVAILABLE", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_lastmile_result.html#ae6b4fe7bb3385f6812288351f3604782", null ]
-];

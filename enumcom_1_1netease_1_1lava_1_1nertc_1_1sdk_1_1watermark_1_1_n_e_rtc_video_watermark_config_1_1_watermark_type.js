@@ -1,6 +1,0 @@
-var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1watermark_1_1_n_e_rtc_video_watermark_config_1_1_watermark_type =
-[
-    [ "kNERtcWatermarkTypeImage", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1watermark_1_1_n_e_rtc_video_watermark_config_1_1_watermark_type.html#a99ece5117fb914c45bbfdf77edabda18", null ],
-    [ "kNERtcWatermarkTypeText", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1watermark_1_1_n_e_rtc_video_watermark_config_1_1_watermark_type.html#a81df1a4c595221cb289a7bb07b0da31c", null ],
-    [ "kNERtcWatermarkTypeTimestamp", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1watermark_1_1_n_e_rtc_video_watermark_config_1_1_watermark_type.html#a8257dacde015a4c022b731b8029294ef", null ]
-];

@@ -1,6 +1,0 @@
-var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_output_orientation_mode =
-[
-    [ "VIDEO_OUTPUT_ORIENTATION_MODE_ADAPTATIVE", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_output_orientation_mode.html#aabf4d61345b31f07ce305e193b345e25", null ],
-    [ "VIDEO_OUTPUT_ORIENTATION_MODE_FIXED_LANDSCAPE", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_output_orientation_mode.html#a584376ab89ad377e8529b4f19581ce42", null ],
-    [ "VIDEO_OUTPUT_ORIENTATION_MODE_FIXED_PORTRAIT", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_output_orientation_mode.html#a4355a9353d86f615c8a87d701353fd41", null ]
-];

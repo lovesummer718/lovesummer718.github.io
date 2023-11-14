@@ -1,4 +1,0 @@
-var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_process_observer =
-[
-    [ "onAudioHasHowling", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1audio_1_1_n_e_rtc_audio_process_observer.html#ab6c483608f6db4e7bd8d7d2ed68fa7b3", null ]
-];

@@ -1,5 +1,0 @@
-var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_mode =
-[
-    [ "kNERtcLsModeAudio", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_mode.html#a90354aa072fb385015778be3dd11189c", null ],
-    [ "kNERtcLsModeVideo", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_mode.html#a25fa2984ee3b02bf31d38ed8a10cf6d6", null ]
-];

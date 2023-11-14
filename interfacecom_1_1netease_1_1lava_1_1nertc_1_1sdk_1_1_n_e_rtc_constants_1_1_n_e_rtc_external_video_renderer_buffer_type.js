@@ -1,0 +1,5 @@
+var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_external_video_renderer_buffer_type =
+[
+    [ "I420", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_external_video_renderer_buffer_type.html#af338ee470f5a999bfcf578d41656eb7f", null ],
+    [ "TEXTURE_RGB", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_external_video_renderer_buffer_type.html#aa5a062a7ce015ccb84155377fb1ec3f8", null ]
+];

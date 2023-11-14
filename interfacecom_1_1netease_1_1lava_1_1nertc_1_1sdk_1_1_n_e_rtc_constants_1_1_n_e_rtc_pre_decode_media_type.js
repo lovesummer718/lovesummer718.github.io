@@ -1,0 +1,6 @@
+var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_pre_decode_media_type =
+[
+    [ "PRE_DECODE_MEDIA_TYPE_AUDIO", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_pre_decode_media_type.html#a1dd2c04166c3f42fc433574149c9eceb", null ],
+    [ "PRE_DECODE_MEDIA_TYPE_UNKNOWN", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_pre_decode_media_type.html#a0c5138d390cc603ebf787a51f8c47d5a", null ],
+    [ "PRE_DECODE_MEDIA_TYPE_VIDEO", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_n_e_rtc_pre_decode_media_type.html#a21322d2a5bfb1d2435ca1f5cd09469a9", null ]
+];

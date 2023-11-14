@@ -1,0 +1,10 @@
+var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode =
+[
+    [ "layoutAudioOnly", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#af3f8834f0d51470030b23111d1cc6aa1", null ],
+    [ "layoutCustom", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#a654f887a11f2a4da6adaec076522bad1", null ],
+    [ "layoutFloatingLeftVertical", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#a0437cfaff70473ed3430ff7e5999e208", null ],
+    [ "layoutFloatingRightVertical", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#a7b82bed01eae5569b408eecfe8760216", null ],
+    [ "layoutSplitScreen", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#a3481d5182c7449bf5b3cb412db13010c", null ],
+    [ "layoutSplitScreenScaling", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#aba5f12f2e4274603f50c76e2bcbf308b", null ],
+    [ "layoutSubscribe", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1live_1_1_n_e_rtc_live_stream_task_info_1_1_n_e_rtc_live_stream_layout_mode.html#a9652429fec83efbf5cfa488b567c6aac", null ]
+];

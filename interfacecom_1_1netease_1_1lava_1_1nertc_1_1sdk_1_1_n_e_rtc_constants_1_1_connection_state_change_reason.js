@@ -1,0 +1,16 @@
+var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason =
+[
+    [ "CONNECTION_CHANGED_CHANNEL_CLOSED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a0983b964bb2ea4c21788b20f54768458", null ],
+    [ "CONNECTION_CHANGED_JOIN_CHANNEL", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a1dec03ba6d3f59de381a5010196c8652", null ],
+    [ "CONNECTION_CHANGED_JOIN_CHANNEL_FAILED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a59f809ec2c29a765eab425ed267ecb99", null ],
+    [ "CONNECTION_CHANGED_JOIN_SUCCEED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a2ff87fd9b077c10057dd0a8a31c400ac", null ],
+    [ "CONNECTION_CHANGED_LEAVE_CHANNEL", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a22d8aac951170a04040cb7632f6031c2", null ],
+    [ "CONNECTION_CHANGED_MEDIA_CONNECTION_DISCONNECTED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a91cde47416a8bc0ab4e15bd0ef907a4f", null ],
+    [ "CONNECTION_CHANGED_RE_DISPATCH", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#adbd90d4f5192622eba1f27fccd8f678e", null ],
+    [ "CONNECTION_CHANGED_REJOIN_SUCCEED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#ae7d5282d3436a82019bc815d0fb15f57", null ],
+    [ "CONNECTION_CHANGED_REQUEST_CHANNEL_FAILED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#abe8d0335138426e5a7aefa642614002b", null ],
+    [ "CONNECTION_CHANGED_SERVER_KICKED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a44a78ce3d0b56a1738e72ae841df748a", null ],
+    [ "CONNECTION_CHANGED_SETTING_PROXY_SERVER", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a5721235719210ace38a28c965330a0a1", null ],
+    [ "CONNECTION_CHANGED_SIGNAL_DISCONNECTED", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#a50e28ab05d16c73a3cc50f02e5d2b4e8", null ],
+    [ "CONNECTION_CHANGED_TIME_OUT", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1_n_e_rtc_constants_1_1_connection_state_change_reason.html#ab50e3ddbab1aa8d261b7573358524634", null ]
+];

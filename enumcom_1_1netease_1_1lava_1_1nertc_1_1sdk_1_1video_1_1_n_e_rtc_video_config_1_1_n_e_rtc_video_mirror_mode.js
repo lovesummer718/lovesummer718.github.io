@@ -1,0 +1,6 @@
+var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_mirror_mode =
+[
+    [ "VIDEO_MIRROR_MODE_AUTO", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_mirror_mode.html#a8f4f6f1775de7703a3b4e53fd4737deb", null ],
+    [ "VIDEO_MIRROR_MODE_DISABLED", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_mirror_mode.html#a9290be38bebe6a93ce864de6955d678c", null ],
+    [ "VIDEO_MIRROR_MODE_ENABLED", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_video_config_1_1_n_e_rtc_video_mirror_mode.html#a45f3f8140b1e92052a7bce520a9cc214", null ]
+];

@@ -1,0 +1,7 @@
+var enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_camera_capture_config_1_1_n_e_rtc_capture_extra_rotation =
+[
+    [ "CAPTURE_EXTRA_ROTATION_180", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_camera_capture_config_1_1_n_e_rtc_capture_extra_rotation.html#aba00f59c42419488e005075dcca9c807", null ],
+    [ "CAPTURE_EXTRA_ROTATION_ANTICLOCKWISE_90", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_camera_capture_config_1_1_n_e_rtc_capture_extra_rotation.html#af07f7dbe70cbb4d59ed73e66b4cecaeb", null ],
+    [ "CAPTURE_EXTRA_ROTATION_CLOCKWISE_90", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_camera_capture_config_1_1_n_e_rtc_capture_extra_rotation.html#a96d686dcc6e5a20867216b21dc6e243e", null ],
+    [ "CAPTURE_EXTRA_ROTATION_DEFAULT", "enumcom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_camera_capture_config_1_1_n_e_rtc_capture_extra_rotation.html#acc707356a8cf4f18cfdcfacfa8c370b2", null ]
+];

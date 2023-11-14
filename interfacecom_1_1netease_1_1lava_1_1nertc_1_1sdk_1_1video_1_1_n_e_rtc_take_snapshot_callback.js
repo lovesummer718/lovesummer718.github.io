@@ -1,0 +1,4 @@
+var interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_take_snapshot_callback =
+[
+    [ "onTakeSnapshotResult", "interfacecom_1_1netease_1_1lava_1_1nertc_1_1sdk_1_1video_1_1_n_e_rtc_take_snapshot_callback.html#af57dea2ab3242916fd7c1d1e3fe98b30", null ]
+];

@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NERtc Windows SDK: Create an NERTC Engine</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NERtc Windows SDK
+   &#160;<span id="projectnumber">V5.5.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">Create an NERTC Engine</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:ga9477c0383866743973deeda15365a16c"><td class="memItemLeft" align="right" valign="top">NERTC_API <a class="el" href="classnertc_1_1_i_rtc_engine.html">nertc::IRtcEngine</a> *NERTC_CALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__create_n_e_rtc_engine.html#ga9477c0383866743973deeda15365a16c">createNERtcEngine</a> ()</td></tr>
+<tr class="separator:ga9477c0383866743973deeda15365a16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85f37bd2b9f86d5aa94943981892329a"><td class="memItemLeft" align="right" valign="top">NERTC_API void NERTC_CALL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__create_n_e_rtc_engine.html#ga85f37bd2b9f86d5aa94943981892329a">destroyNERtcEngine</a> (void *&amp;nertc_engine_inst)</td></tr>
+<tr class="separator:ga85f37bd2b9f86d5aa94943981892329a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<h2 class="groupheader">函数说明</h2>
+<a id="ga9477c0383866743973deeda15365a16c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9477c0383866743973deeda15365a16c">&#9670;&nbsp;</a></span>createNERtcEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NERTC_API <a class="el" href="classnertc_1_1_i_rtc_engine.html">nertc::IRtcEngine</a>* NERTC_CALL createNERtcEngine </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>创建 RTC 引擎对象并返回指针。 </p><dl class="section note"><dt>注解</dt><dd>同时只支持一个IRtcEngine对象，新创建前必须先释放前一个IRtcEngine。 </dd></dl>
+<dl class="section return"><dt>返回</dt><dd>RTC 引擎对象的指针。 </dd></dl>
+
+</div>
+</div>
+<a id="ga85f37bd2b9f86d5aa94943981892329a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga85f37bd2b9f86d5aa94943981892329a">&#9670;&nbsp;</a></span>destroyNERtcEngine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NERTC_API void NERTC_CALL destroyNERtcEngine </td>
+          <td>(</td>
+          <td class="paramtype">void *&amp;&#160;</td>
+          <td class="paramname"><em>nertc_engine_inst</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>销毁 RTC 引擎对象。 </p><dl class="section note"><dt>注解</dt><dd>释放前需要先调用<a class="el" href="classnertc_1_1_i_rtc_engine.html#ac16ff6b3517d45a9cbc1504a94770b70">release</a> </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

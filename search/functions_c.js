@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['removebeautyfilter_1660',['removeBeautyFilter',['../interface_n_e_rtc_beauty.html#a36c86d8ec8dd3fd7bc4c7b57c2ec99e0',1,'NERtcBeauty']]],
-  ['removebeautymakeup_1661',['removeBeautyMakeup',['../interface_n_e_rtc_beauty.html#a2bd8625486a415277314545bacd7550a',1,'NERtcBeauty']]],
-  ['removebeautysticker_1662',['removeBeautySticker',['../interface_n_e_rtc_beauty.html#a8559f05a99b18982d22197756379b6ff',1,'NERtcBeauty']]],
-  ['removechannelmediastatsobserver_3a_1663',['removeChannelMediaStatsObserver:',['../protocol_i_n_e_rtc_channel-p.html#a6ebd75cf060036077b17b85ec524b751',1,'INERtcChannel-p']]],
-  ['removedestinationinfoforchannelname_3a_1664',['removeDestinationInfoForChannelName:',['../interface_n_e_rtc_channel_media_relay_configuration.html#a1e266c044a0275873e5687570171e9f0',1,'NERtcChannelMediaRelayConfiguration']]],
-  ['removeenginemediastatsobserver_3a_1665',['removeEngineMediaStatsObserver:',['../protocol_i_n_e_rtc_engine_ex-p.html#adb298ac23729a6c618ba99d710c51c99',1,'INERtcEngineEx-p']]],
-  ['removelivestreamtask_3acompeltion_3a_1666',['removeLiveStreamTask:compeltion:',['../protocol_i_n_e_rtc_channel-p.html#a6b557c0c34cb5c82adda3cb9de8af996',1,'INERtcChannel-p::removeLiveStreamTask:compeltion:()'],['../protocol_i_n_e_rtc_engine_ex-p.html#ab2f98e936a96622664b425c0d78f7c0c',1,'INERtcEngineEx-p::removeLiveStreamTask:compeltion:()']]],
-  ['reportcustomevent_3acustomidentify_3aparam_3a_1667',['reportCustomEvent:customIdentify:param:',['../protocol_i_n_e_rtc_channel-p.html#adc697958a359bc26e9e86b22d838ba87',1,'INERtcChannel-p::reportCustomEvent:customIdentify:param:()'],['../protocol_i_n_e_rtc_engine_ex-p.html#ad8026d7d168579305868aa1b8020ee3c',1,'INERtcEngineEx-p::reportCustomEvent:customIdentify:param:(NSString *eventName,[customIdentify] NSString *customIdentify,[param] NSDictionary *param)']]],
-  ['resumealleffects_1668',['resumeAllEffects',['../protocol_i_n_e_rtc_engine_ex-p.html#aa41b74fcf46fe8941ecef51fb3659f84',1,'INERtcEngineEx-p']]],
-  ['resumeaudiomixing_1669',['resumeAudioMixing',['../protocol_i_n_e_rtc_engine_ex-p.html#ac5ed4a3bac62e7a0759910440c2c8437',1,'INERtcEngineEx-p']]],
-  ['resumeeffectwitdid_3a_1670',['resumeEffectWitdId:',['../protocol_i_n_e_rtc_engine_ex-p.html#a6b942e94336cd593d467263c1e0acd0e',1,'INERtcEngineEx-p']]]
+  ['release_1486',['release',['../classnertc_1_1_i_rtc_channel.html#ad809d26d54f150df8dad8a4e51b8d79a',1,'nertc::IRtcChannel::release()'],['../classnertc_1_1_i_rtc_engine.html#ac16ff6b3517d45a9cbc1504a94770b70',1,'nertc::IRtcEngine::release()']]],
+  ['removebeautyfilter_1487',['removeBeautyFilter',['../interface_n_e_rtc_beauty.html#a36c86d8ec8dd3fd7bc4c7b57c2ec99e0',1,'NERtcBeauty::removeBeautyFilter()'],['../classnertc_1_1_i_rtc_engine_ex.html#aab398bfe035478175387f8cb8355f9d1',1,'nertc::IRtcEngineEx::removeBeautyFilter()']]],
+  ['removebeautymakeup_1488',['removeBeautyMakeup',['../interface_n_e_rtc_beauty.html#a2bd8625486a415277314545bacd7550a',1,'NERtcBeauty::removeBeautyMakeup()'],['../classnertc_1_1_i_rtc_engine_ex.html#abb5708124e7324e91692a77898eb2ebb',1,'nertc::IRtcEngineEx::removeBeautyMakeup()']]],
+  ['removebeautysticker_1489',['removeBeautySticker',['../interface_n_e_rtc_beauty.html#a8559f05a99b18982d22197756379b6ff',1,'NERtcBeauty::removeBeautySticker()'],['../classnertc_1_1_i_rtc_engine_ex.html#ac9b34c225b20ff8275ba029a2104c621',1,'nertc::IRtcEngineEx::removeBeautySticker()']]],
+  ['removelivestreamtask_1490',['removeLiveStreamTask',['../classnertc_1_1_i_rtc_channel.html#af1f7f8aeed2c95bb5852e8a8b0cf9232',1,'nertc::IRtcChannel::removeLiveStreamTask()'],['../classnertc_1_1_i_rtc_engine_ex.html#ae2764a62d1c421d4bec3e626eb6c3f83',1,'nertc::IRtcEngineEx::removeLiveStreamTask()']]],
+  ['reportcustomevent_1491',['reportCustomEvent',['../classnertc_1_1_i_rtc_channel.html#aea86f48b384d6a7a6cf53b945b00324c',1,'nertc::IRtcChannel']]],
+  ['resumealleffects_1492',['resumeAllEffects',['../classnertc_1_1_i_rtc_engine_ex.html#a80af18aff1638a72449b58094f7121aa',1,'nertc::IRtcEngineEx']]],
+  ['resumeaudiomixing_1493',['resumeAudioMixing',['../classnertc_1_1_i_rtc_engine_ex.html#a895dd671d9f27e0c06c575bd3a985c3b',1,'nertc::IRtcEngineEx']]],
+  ['resumeeffect_1494',['resumeEffect',['../classnertc_1_1_i_rtc_engine_ex.html#a382f3f9f19b47780a77c627eb868acd2',1,'nertc::IRtcEngineEx']]],
+  ['resumescreencapture_1495',['resumeScreenCapture',['../classnertc_1_1_i_rtc_channel.html#a17d15807d86187d0417632bc83aa7fb9',1,'nertc::IRtcChannel::resumeScreenCapture()'],['../classnertc_1_1_i_rtc_engine_ex.html#a7323b3f9e0eee581a0dc67354df4e092',1,'nertc::IRtcEngineEx::resumeScreenCapture()']]]
 ];

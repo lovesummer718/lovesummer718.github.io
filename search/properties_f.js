@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['quality_2531',['quality',['../interface_n_e_rtc_audio_recording_configuration.html#a0acbae4cdbdf131aad897e0f9a74b12f',1,'NERtcAudioRecordingConfiguration']]],
-  ['quicproxyserver_2532',['quicProxyServer',['../interface_n_e_rtc_server_addresses.html#aa0502812fdf3af5711321d51be0fa5bf',1,'NERtcServerAddresses']]]
+  ['whiteskin_2412',['whiteSkin',['../interface_n_e_rtc_beauty.html#a034e11a015185f9af2b3823661adbd2a',1,'NERtcBeauty']]]
 ];

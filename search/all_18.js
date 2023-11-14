@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_1325',['x',['../interface_n_e_rtc_live_stream_user_transcoding.html#ac2b14ca8eae9c67ee464bd1e7b7b1aa4',1,'NERtcLiveStreamUserTranscoding::x()'],['../interface_n_e_rtc_live_stream_image_info.html#a8da085315377d43c10b26d25f5a82a55',1,'NERtcLiveStreamImageInfo::x()']]]
+  ['y_1226',['y',['../structnertc_1_1_n_e_rtc_live_stream_user_transcoding.html#a6b3ed81d64ff884e58ba5dd33e5fb1d6',1,'nertc::NERtcLiveStreamUserTranscoding::y()'],['../structnertc_1_1_n_e_rtc_live_stream_image_info.html#ad6e949ac76f91fd46c687958c75a21c7',1,'nertc::NERtcLiveStreamImageInfo::y()'],['../structnertc_1_1_n_e_rtc_rectangle.html#a4b48f07ca146b549c24895f7dbed7004',1,'nertc::NERtcRectangle::y()']]]
 ];

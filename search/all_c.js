@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['layertype_650',['layerType',['../interface_n_e_rtc_video_layer_send_stats.html#a8004c35c6dbfdc88ee7317cf498db00d',1,'NERtcVideoLayerSendStats::layerType()'],['../interface_n_e_rtc_video_layer_recv_stats.html#ae17f2e3c8accbcffe83d2663b528ea6e',1,'NERtcVideoLayerRecvStats::layerType()']]],
-  ['layout_651',['layout',['../interface_n_e_rtc_live_stream_task_info.html#a57eebbf4914693224a5695508ad66435',1,'NERtcLiveStreamTaskInfo']]],
-  ['leavechannel_652',['leaveChannel',['../protocol_i_n_e_rtc_channel-p.html#a2dc58957c2aaec792558ec411a2eb238',1,'INERtcChannel-p::leaveChannel()'],['../protocol_i_n_e_rtc_engine-p.html#a810e41b2be7de2b00458ee786302631c',1,'INERtcEngine-p::leaveChannel()']]],
-  ['length_653',['length',['../interface_n_e_rtc_pre_decoder_frame_info.html#ab4729570130de72ea4d5055b2f1db21b',1,'NERtcPreDecoderFrameInfo']]],
-  ['logdir_654',['logDir',['../interface_n_e_rtc_log_setting.html#a54eaaa552e4219ce6d1652f02bd9fa9a',1,'NERtcLogSetting']]],
-  ['loglevel_655',['logLevel',['../interface_n_e_rtc_log_setting.html#a6fa862a3e189b6cbe186c8f551340752',1,'NERtcLogSetting']]],
-  ['logsetting_656',['logSetting',['../interface_n_e_rtc_engine_context.html#a761af3f0673af5f95d24770ea59ed328',1,'NERtcEngineContext']]],
-  ['longnosestrength_657',['longNoseStrength',['../interface_n_e_rtc_beauty.html#a3dbaf681302a2cd0d091203b0b46b373',1,'NERtcBeauty']]],
-  ['loop_658',['loop',['../interface_n_e_rtc_video_watermark_image_config.html#a62c97d88bbc1dede22ec7940816c7b4e',1,'NERtcVideoWatermarkImageConfig']]],
-  ['loopcount_659',['loopCount',['../interface_n_e_rtc_create_audio_mixing_option.html#adaf5a7e1a6330d0829f6290d69e9114c',1,'NERtcCreateAudioMixingOption::loopCount()'],['../interface_n_e_rtc_create_audio_effect_option.html#a18277c036e6f28de9e85c57f5572a966',1,'NERtcCreateAudioEffectOption::loopCount()']]],
-  ['lossrate_660',['lossRate',['../interface_n_e_rtc_audio_layer_send_stats.html#aac7ecfcc2d76cf7fb219640ff9764fac',1,'NERtcAudioLayerSendStats']]],
-  ['lsmode_661',['lsMode',['../interface_n_e_rtc_live_stream_task_info.html#a26c01fc614be0d624e98d8d1f478cc11',1,'NERtcLiveStreamTaskInfo']]]
+  ['main_5fpicture_5faccount_5fid_682',['main_picture_account_id',['../structnertc_1_1_n_e_rtc_live_stream_task_option.html#a407f1ce1078894b4eb8309f170cfce84',1,'nertc::NERtcLiveStreamTaskOption']]],
+  ['material_683',['material',['../structnertc_1_1_n_e_rtc_spatializer_room_property.html#aa0c7486044ed743d45143eb13c4b8883',1,'nertc::NERtcSpatializerRoomProperty']]],
+  ['max_5fprofile_684',['max_profile',['../structnertc_1_1_n_e_rtc_video_config.html#a04fcd6d449dcacbd7818fdce480c1bd5',1,'nertc::NERtcVideoConfig']]],
+  ['media_5fproxy_5fserver_685',['media_proxy_server',['../structnertc_1_1_n_e_rtc_server_addresses.html#a84fbb030100a1b844d029cfe2c4429d1',1,'nertc::NERtcServerAddresses']]],
+  ['media_5ftype_686',['media_type',['../structnertc_1_1_n_e_rtc_pre_decode_frame_info.html#a8c5f06c8b14e17182704de29b4e6b3f1',1,'nertc::NERtcPreDecodeFrameInfo']]],
+  ['memory_5fapp_5fkbytes_687',['memory_app_kbytes',['../structnertc_1_1_n_e_rtc_stats.html#a710a7de3b5ad5bf6a0fd51d640e1a293',1,'nertc::NERtcStats']]],
+  ['memory_5fapp_5fusage_688',['memory_app_usage',['../structnertc_1_1_n_e_rtc_stats.html#aedb3f8df76a284454c38977b1a93d7d2',1,'nertc::NERtcStats']]],
+  ['memory_5ftotal_5fusage_689',['memory_total_usage',['../structnertc_1_1_n_e_rtc_stats.html#a42640ed82672d5bd0eb41f9ab72bbae9',1,'nertc::NERtcStats']]],
+  ['min_5fbitrate_690',['min_bitrate',['../structnertc_1_1_n_e_rtc_video_config.html#ac0a1d82431926b6a8f1d9db0ad703d27',1,'nertc::NERtcVideoConfig::min_bitrate()'],['../structnertc_1_1_n_e_rtc_screen_capture_parameters.html#aef1a48a546ed66f23e728156a6d86928',1,'nertc::NERtcScreenCaptureParameters::min_bitrate()']]],
+  ['min_5fframerate_691',['min_framerate',['../structnertc_1_1_n_e_rtc_video_config.html#a812419614a119dad16f9d602b5ed6527',1,'nertc::NERtcVideoConfig::min_framerate()'],['../structnertc_1_1_n_e_rtc_screen_capture_parameters.html#ab3d1a7b52c9e4be280a8684a0a2616eb',1,'nertc::NERtcScreenCaptureParameters::min_framerate()']]],
+  ['mirror_5fmode_692',['mirror_mode',['../structnertc_1_1_n_e_rtc_video_config.html#a75ec24e0422b7d565c80fb0ef00b0c2f',1,'nertc::NERtcVideoConfig::mirror_mode()'],['../structnertc_1_1_n_e_rtc_video_canvas.html#ab2c3f29cccd971d63c055a8df3320053',1,'nertc::NERtcVideoCanvas::mirror_mode()']]],
+  ['mode_693',['mode',['../structnertc_1_1_n_e_rtc_audio_frame_request_format.html#a8ef3bd6b4588aa2204e378a03094752b',1,'nertc::NERtcAudioFrameRequestFormat::mode()'],['../structnertc_1_1_n_e_rtc_encryption_config.html#a3aa417d92b9d6d738cfa2ffd66977a09',1,'nertc::NERtcEncryptionConfig::mode()'],['../structnertc_1_1_n_e_rtc_join_channel_options_ex.html#a2f85302af0e888e42a0f847e6cf62977',1,'nertc::NERtcJoinChannelOptionsEx::mode()']]],
+  ['mouth_694',['mouth',['../interface_n_e_rtc_beauty.html#a2dff12b0f10109cec1a5133019e2f52c',1,'NERtcBeauty']]],
+  ['mouthangle_695',['mouthAngle',['../interface_n_e_rtc_beauty.html#ac80589b857c665f170f69b186c2499ea',1,'NERtcBeauty']]],
+  ['mouthwiderstrength_696',['mouthWiderStrength',['../interface_n_e_rtc_beauty.html#a46c658f490ca2f0e82bf9f148df39f99',1,'NERtcBeauty']]],
+  ['mutelocalaudiostream_697',['muteLocalAudioStream',['../classnertc_1_1_i_rtc_channel.html#a5d276b222652330d9c88ec6d2f276ea9',1,'nertc::IRtcChannel::muteLocalAudioStream()'],['../classnertc_1_1_i_rtc_engine_ex.html#a440675d9c53376f2ed0b91b9b9a44623',1,'nertc::IRtcEngineEx::muteLocalAudioStream()']]],
+  ['mutelocalsubstreamaudio_698',['muteLocalSubStreamAudio',['../classnertc_1_1_i_rtc_channel.html#a7ff5640cea90d89b00d2403d5c09c45d',1,'nertc::IRtcChannel::muteLocalSubStreamAudio()'],['../classnertc_1_1_i_rtc_engine_ex.html#a6ee5eba011bd7d548559c3f35189294f',1,'nertc::IRtcEngineEx::muteLocalSubStreamAudio()']]],
+  ['mutelocalvideostream_699',['muteLocalVideoStream',['../classnertc_1_1_i_rtc_channel.html#a07092693bb41ff97f5c376d2b3700ed1',1,'nertc::IRtcChannel::muteLocalVideoStream(bool mute)=0'],['../classnertc_1_1_i_rtc_channel.html#a65a9d4a89d7d81419a1638af0a7e0be3',1,'nertc::IRtcChannel::muteLocalVideoStream(NERtcVideoStreamType type, bool mute)=0'],['../classnertc_1_1_i_rtc_engine_ex.html#a861135de48ec1adc1e8a590089940665',1,'nertc::IRtcEngineEx::muteLocalVideoStream(bool mute)=0'],['../classnertc_1_1_i_rtc_engine_ex.html#aedefd8d66a0239826db8d319a6a17f8c',1,'nertc::IRtcEngineEx::muteLocalVideoStream(NERtcVideoStreamType type, bool mute)=0']]]
 ];

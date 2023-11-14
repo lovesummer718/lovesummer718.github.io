@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NERtc Windows SDK: include/nertc_engine_event_handler.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NERtc Windows SDK
+   &#160;<span id="projectnumber">V5.5.10</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">nertc_engine_event_handler.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="nertc__engine__event__handler_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef NERTC_ENGINE_EVENT_HANDLER_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define NERTC_ENGINE_EVENT_HANDLER_H</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;nertc_base_types.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="nertc__error__code_8h.html">nertc_error_code.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="nertc__warn__code_8h.html">nertc_warn_code.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="nertc__engine__defines_8h.html">nertc_engine_defines.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacenertc.html">nertc</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html">   32</a></span>&#160;<span class="keyword">class </span><a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html">IRtcEngineEventHandler</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">virtual</span> ~<a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html">IRtcEngineEventHandler</a>() {}</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#aa969444394e68e92a91db32e8460393e">   51</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#aa969444394e68e92a91db32e8460393e">onError</a>(<span class="keywordtype">int</span> error_code, <span class="keyword">const</span> <span class="keywordtype">char</span>* msg) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        (void)error_code;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        (void)msg;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a81551125ab62fa9b66a922f3a9cf211a">   70</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a81551125ab62fa9b66a922f3a9cf211a">onWarning</a>(<span class="keywordtype">int</span> warn_code, <span class="keyword">const</span> <span class="keywordtype">char</span>* msg) {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        (void)warn_code;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        (void)msg;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    </div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a5a9a341f61966b7e83967572a49c0326">   91</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a5a9a341f61966b7e83967572a49c0326">onApiCallExecuted</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* api_name, <a class="code" href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">NERtcErrorCode</a> error, <span class="keyword">const</span> <span class="keywordtype">char</span>* message) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        (void)api_name;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        (void)error;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        (void)message;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a8670496183b35fb285e0d964b07142c4">  109</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a8670496183b35fb285e0d964b07142c4">onReleasedHwResources</a>(<a class="code" href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">NERtcErrorCode</a> result) {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        (void)result;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a3f55353db4a1369d70ec3859e91c7337">  129</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a3f55353db4a1369d70ec3859e91c7337">onJoinChannel</a>(<a class="code" href="namespacenertc.html#aaaa4beba87563ce6db3aa78ee2acd2b9">channel_id_t</a> cid, <a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <a class="code" href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">NERtcErrorCode</a> result, uint64_t elapsed) {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        (void)cid;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        (void)result;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        (void)elapsed;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#ace7bfa83c1e9d6bb199519fa45ecc66f">  150</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#ace7bfa83c1e9d6bb199519fa45ecc66f">onReconnectingStart</a>(<a class="code" href="namespacenertc.html#aaaa4beba87563ce6db3aa78ee2acd2b9">channel_id_t</a> cid, <a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid) {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        (void)cid;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#acc3468170eeb2e05915fc1df964823f5">  169</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#acc3468170eeb2e05915fc1df964823f5">onConnectionStateChange</a>(<a class="code" href="namespacenertc.html#a63c54360dd23ac659013f1e5031bd1d5">NERtcConnectionStateType</a> state, <a class="code" href="namespacenertc.html#a2fcab3957a4f77ef956879e7fceb03f8">NERtcReasonConnectionChangedType</a> reason) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        (void)state;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        (void)reason;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a8a9d5275c71e950c35604b851c9a0db6">  192</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a8a9d5275c71e950c35604b851c9a0db6">onRejoinChannel</a>(<a class="code" href="namespacenertc.html#aaaa4beba87563ce6db3aa78ee2acd2b9">channel_id_t</a> cid, <a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <a class="code" href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">NERtcErrorCode</a> result, uint64_t elapsed) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        (void)cid;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        (void)result;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#ac1f8466195da1eb0cc2be9916d9912be">  210</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#ac1f8466195da1eb0cc2be9916d9912be">onLeaveChannel</a>(<a class="code" href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">NERtcErrorCode</a> result) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        (void)result;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
+<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#afa9019aa0b86c9d056814d0921069c8f">  230</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#afa9019aa0b86c9d056814d0921069c8f">onDisconnect</a>(<a class="code" href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">NERtcErrorCode</a> reason) {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        (void)reason;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    </div>
+<div class="line"><a name="l00254"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a6cebf3cc8ba85e96e43eec3953f17b0e">  254</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a6cebf3cc8ba85e96e43eec3953f17b0e">onClientRoleChanged</a>(<a class="code" href="namespacenertc.html#a1277b5498334b7efe3ad260d72350128">NERtcClientRole</a> oldRole, <a class="code" href="namespacenertc.html#a1277b5498334b7efe3ad260d72350128">NERtcClientRole</a> newRole) {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        (void)oldRole;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        (void)newRole;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
+<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a84a5b3eb47d7f0465082db4bd4bd4989">  283</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a84a5b3eb47d7f0465082db4bd4bd4989">onUserJoined</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <span class="keyword">const</span> <span class="keywordtype">char</span> * user_name) {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        (void)user_name;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    }</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
+<div class="line"><a name="l00329"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a4dd427d417892f99812ac42ac5db22ac">  329</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a4dd427d417892f99812ac42ac5db22ac">onUserJoined</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <span class="keyword">const</span> <span class="keywordtype">char</span>* user_name, <a class="code" href="structnertc_1_1_n_e_rtc_user_join_extra_info.html">NERtcUserJoinExtraInfo</a> join_extra_info) {</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        (void)user_name;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        (void)join_extra_info;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    }</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160; </div>
+<div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a573c5039eeba1acab4fe0bd28ec6e19c">  358</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a573c5039eeba1acab4fe0bd28ec6e19c">onUserLeft</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <a class="code" href="namespacenertc.html#a5b9750357f02ed1ef67fdbdf2b5b1bdb">NERtcSessionLeaveReason</a> reason) {</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        (void)reason;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    }</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
+<div class="line"><a name="l00409"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a05306dbb0e602ea608515b5e394202cf">  409</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a05306dbb0e602ea608515b5e394202cf">onUserLeft</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <a class="code" href="namespacenertc.html#a5b9750357f02ed1ef67fdbdf2b5b1bdb">NERtcSessionLeaveReason</a> reason, <a class="code" href="structnertc_1_1_n_e_rtc_user_join_extra_info.html">NERtcUserJoinExtraInfo</a> leave_extra_info) {</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        (void)reason;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        (void)leave_extra_info;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    }</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160; </div>
+<div class="line"><a name="l00426"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a4e836de435599aa9a06a0bd37d16057c">  426</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a4e836de435599aa9a06a0bd37d16057c">onUserAudioStart</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid) {</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    }</div>
+<div class="line"><a name="l00440"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a971392ec727e051cc2e37b8af95b6806">  440</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a971392ec727e051cc2e37b8af95b6806">onUserAudioStop</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid) {</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    }</div>
+<div class="line"><a name="l00456"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#a0b84dd2fcc3a6f5fe03f36c9cc4911ad">  456</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#a0b84dd2fcc3a6f5fe03f36c9cc4911ad">onUserVideoStart</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid, <a class="code" href="namespacenertc.html#a80b32c4c5cf6f4a36dbe6650ae859058">NERtcVideoProfileType</a> max_profile) {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        (void)max_profile;</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    }</div>
+<div class="line"><a name="l00471"></a><span class="lineno"><a class="line" href="classnertc_1_1_i_rtc_engine_event_handler.html#ac1dfb8ff38201681140c8ff7e2323bc7">  471</a></span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classnertc_1_1_i_rtc_engine_event_handler.html#ac1dfb8ff38201681140c8ff7e2323bc7">onUserVideoStop</a>(<a class="code" href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">uid_t</a> uid) {</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        (void)uid;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    }</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160; </div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;};</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;} <span class="comment">// namespace nertc</span></div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160; </div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html">nertc::IRtcEngineEventHandler</a></div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:33</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a05306dbb0e602ea608515b5e394202cf"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a05306dbb0e602ea608515b5e394202cf">nertc::IRtcEngineEventHandler::onUserLeft</a></div><div class="ttdeci">virtual void onUserLeft(uid_t uid, NERtcSessionLeaveReason reason, NERtcUserJoinExtraInfo leave_extra_info)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:409</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a0b84dd2fcc3a6f5fe03f36c9cc4911ad"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a0b84dd2fcc3a6f5fe03f36c9cc4911ad">nertc::IRtcEngineEventHandler::onUserVideoStart</a></div><div class="ttdeci">virtual void onUserVideoStart(uid_t uid, NERtcVideoProfileType max_profile)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:456</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a3f55353db4a1369d70ec3859e91c7337"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a3f55353db4a1369d70ec3859e91c7337">nertc::IRtcEngineEventHandler::onJoinChannel</a></div><div class="ttdeci">virtual void onJoinChannel(channel_id_t cid, uid_t uid, NERtcErrorCode result, uint64_t elapsed)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:129</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a4dd427d417892f99812ac42ac5db22ac"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a4dd427d417892f99812ac42ac5db22ac">nertc::IRtcEngineEventHandler::onUserJoined</a></div><div class="ttdeci">virtual void onUserJoined(uid_t uid, const char *user_name, NERtcUserJoinExtraInfo join_extra_info)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:329</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a4e836de435599aa9a06a0bd37d16057c"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a4e836de435599aa9a06a0bd37d16057c">nertc::IRtcEngineEventHandler::onUserAudioStart</a></div><div class="ttdeci">virtual void onUserAudioStart(uid_t uid)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:426</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a573c5039eeba1acab4fe0bd28ec6e19c"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a573c5039eeba1acab4fe0bd28ec6e19c">nertc::IRtcEngineEventHandler::onUserLeft</a></div><div class="ttdeci">virtual void onUserLeft(uid_t uid, NERtcSessionLeaveReason reason)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:358</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a5a9a341f61966b7e83967572a49c0326"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a5a9a341f61966b7e83967572a49c0326">nertc::IRtcEngineEventHandler::onApiCallExecuted</a></div><div class="ttdeci">virtual void onApiCallExecuted(const char *api_name, NERtcErrorCode error, const char *message)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:91</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a6cebf3cc8ba85e96e43eec3953f17b0e"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a6cebf3cc8ba85e96e43eec3953f17b0e">nertc::IRtcEngineEventHandler::onClientRoleChanged</a></div><div class="ttdeci">virtual void onClientRoleChanged(NERtcClientRole oldRole, NERtcClientRole newRole)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:254</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a81551125ab62fa9b66a922f3a9cf211a"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a81551125ab62fa9b66a922f3a9cf211a">nertc::IRtcEngineEventHandler::onWarning</a></div><div class="ttdeci">virtual void onWarning(int warn_code, const char *msg)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:70</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a84a5b3eb47d7f0465082db4bd4bd4989"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a84a5b3eb47d7f0465082db4bd4bd4989">nertc::IRtcEngineEventHandler::onUserJoined</a></div><div class="ttdeci">virtual void onUserJoined(uid_t uid, const char *user_name)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:283</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a8670496183b35fb285e0d964b07142c4"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a8670496183b35fb285e0d964b07142c4">nertc::IRtcEngineEventHandler::onReleasedHwResources</a></div><div class="ttdeci">virtual void onReleasedHwResources(NERtcErrorCode result)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:109</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a8a9d5275c71e950c35604b851c9a0db6"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a8a9d5275c71e950c35604b851c9a0db6">nertc::IRtcEngineEventHandler::onRejoinChannel</a></div><div class="ttdeci">virtual void onRejoinChannel(channel_id_t cid, uid_t uid, NERtcErrorCode result, uint64_t elapsed)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:192</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_a971392ec727e051cc2e37b8af95b6806"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#a971392ec727e051cc2e37b8af95b6806">nertc::IRtcEngineEventHandler::onUserAudioStop</a></div><div class="ttdeci">virtual void onUserAudioStop(uid_t uid)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:440</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_aa969444394e68e92a91db32e8460393e"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#aa969444394e68e92a91db32e8460393e">nertc::IRtcEngineEventHandler::onError</a></div><div class="ttdeci">virtual void onError(int error_code, const char *msg)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:51</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_ac1dfb8ff38201681140c8ff7e2323bc7"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#ac1dfb8ff38201681140c8ff7e2323bc7">nertc::IRtcEngineEventHandler::onUserVideoStop</a></div><div class="ttdeci">virtual void onUserVideoStop(uid_t uid)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:471</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_ac1f8466195da1eb0cc2be9916d9912be"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#ac1f8466195da1eb0cc2be9916d9912be">nertc::IRtcEngineEventHandler::onLeaveChannel</a></div><div class="ttdeci">virtual void onLeaveChannel(NERtcErrorCode result)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:210</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_acc3468170eeb2e05915fc1df964823f5"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#acc3468170eeb2e05915fc1df964823f5">nertc::IRtcEngineEventHandler::onConnectionStateChange</a></div><div class="ttdeci">virtual void onConnectionStateChange(NERtcConnectionStateType state, NERtcReasonConnectionChangedType reason)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:169</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_ace7bfa83c1e9d6bb199519fa45ecc66f"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#ace7bfa83c1e9d6bb199519fa45ecc66f">nertc::IRtcEngineEventHandler::onReconnectingStart</a></div><div class="ttdeci">virtual void onReconnectingStart(channel_id_t cid, uid_t uid)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:150</div></div>
+<div class="ttc" id="aclassnertc_1_1_i_rtc_engine_event_handler_html_afa9019aa0b86c9d056814d0921069c8f"><div class="ttname"><a href="classnertc_1_1_i_rtc_engine_event_handler.html#afa9019aa0b86c9d056814d0921069c8f">nertc::IRtcEngineEventHandler::onDisconnect</a></div><div class="ttdeci">virtual void onDisconnect(NERtcErrorCode reason)</div><div class="ttdef"><b>Definition:</b> nertc_engine_event_handler.h:230</div></div>
+<div class="ttc" id="anamespacenertc_html"><div class="ttname"><a href="namespacenertc.html">nertc</a></div><div class="ttdoc">namespace nertc</div></div>
+<div class="ttc" id="anamespacenertc_html_a1277b5498334b7efe3ad260d72350128"><div class="ttname"><a href="namespacenertc.html#a1277b5498334b7efe3ad260d72350128">nertc::NERtcClientRole</a></div><div class="ttdeci">NERtcClientRole</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:244</div></div>
+<div class="ttc" id="anamespacenertc_html_a2fcab3957a4f77ef956879e7fceb03f8"><div class="ttname"><a href="namespacenertc.html#a2fcab3957a4f77ef956879e7fceb03f8">nertc::NERtcReasonConnectionChangedType</a></div><div class="ttdeci">NERtcReasonConnectionChangedType</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:2272</div></div>
+<div class="ttc" id="anamespacenertc_html_a5b9750357f02ed1ef67fdbdf2b5b1bdb"><div class="ttname"><a href="namespacenertc.html#a5b9750357f02ed1ef67fdbdf2b5b1bdb">nertc::NERtcSessionLeaveReason</a></div><div class="ttdeci">NERtcSessionLeaveReason</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:5162</div></div>
+<div class="ttc" id="anamespacenertc_html_a63c54360dd23ac659013f1e5031bd1d5"><div class="ttname"><a href="namespacenertc.html#a63c54360dd23ac659013f1e5031bd1d5">nertc::NERtcConnectionStateType</a></div><div class="ttdeci">NERtcConnectionStateType</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:2205</div></div>
+<div class="ttc" id="anamespacenertc_html_a6af385d971f538ddd7b5ee227ca4a451"><div class="ttname"><a href="namespacenertc.html#a6af385d971f538ddd7b5ee227ca4a451">nertc::uid_t</a></div><div class="ttdeci">uint64_t uid_t</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:183</div></div>
+<div class="ttc" id="anamespacenertc_html_a80b32c4c5cf6f4a36dbe6650ae859058"><div class="ttname"><a href="namespacenertc.html#a80b32c4c5cf6f4a36dbe6650ae859058">nertc::NERtcVideoProfileType</a></div><div class="ttdeci">NERtcVideoProfileType</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:1631</div></div>
+<div class="ttc" id="anamespacenertc_html_aaaa4beba87563ce6db3aa78ee2acd2b9"><div class="ttname"><a href="namespacenertc.html#aaaa4beba87563ce6db3aa78ee2acd2b9">nertc::channel_id_t</a></div><div class="ttdeci">uint64_t channel_id_t</div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:192</div></div>
+<div class="ttc" id="anamespacenertc_html_af062cfe332d58922ac8c020d55f9bb17"><div class="ttname"><a href="namespacenertc.html#af062cfe332d58922ac8c020d55f9bb17">nertc::NERtcErrorCode</a></div><div class="ttdeci">NERtcErrorCode</div><div class="ttdef"><b>Definition:</b> nertc_error_code.h:26</div></div>
+<div class="ttc" id="anertc__engine__defines_8h_html"><div class="ttname"><a href="nertc__engine__defines_8h.html">nertc_engine_defines.h</a></div><div class="ttdoc">NERtc SDK definitions.</div></div>
+<div class="ttc" id="anertc__error__code_8h_html"><div class="ttname"><a href="nertc__error__code_8h.html">nertc_error_code.h</a></div><div class="ttdoc">The definition of error codes of NERtc SDK.</div></div>
+<div class="ttc" id="anertc__warn__code_8h_html"><div class="ttname"><a href="nertc__warn__code_8h.html">nertc_warn_code.h</a></div><div class="ttdoc">The definition of error codes of NERtc SDK.</div></div>
+<div class="ttc" id="astructnertc_1_1_n_e_rtc_user_join_extra_info_html"><div class="ttname"><a href="structnertc_1_1_n_e_rtc_user_join_extra_info.html">nertc::NERtcUserJoinExtraInfo</a></div><div class="ttdef"><b>Definition:</b> nertc_engine_defines.h:7369</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

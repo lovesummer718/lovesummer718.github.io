@@ -1,11 +1,25 @@
 var searchData=
 [
-  ['headpositionx_144',['headPositionX',['../interface_n_e_rtc_position_info.html#ae37c6297dc98e8824412ad952233e1ae',1,'NERtcPositionInfo']]],
-  ['headpositiony_145',['headPositionY',['../interface_n_e_rtc_position_info.html#ad56548965d62eaaaa40c7488af505f7a',1,'NERtcPositionInfo']]],
-  ['headpositionz_146',['headPositionZ',['../interface_n_e_rtc_position_info.html#afe4a75c7df4a4ed41c169f5def653db7',1,'NERtcPositionInfo']]],
-  ['headquaternionw_147',['headQuaternionW',['../interface_n_e_rtc_position_info.html#a68c60c97f81c9d1f8d52ffc485bbf1fa',1,'NERtcPositionInfo']]],
-  ['headquaternionx_148',['headQuaternionX',['../interface_n_e_rtc_position_info.html#a6214a7c18a0c067a70aa318a9aea6e85',1,'NERtcPositionInfo']]],
-  ['headquaterniony_149',['headQuaternionY',['../interface_n_e_rtc_position_info.html#a131f5427ffda9709cb137160fbb7afe9',1,'NERtcPositionInfo']]],
-  ['headquaternionz_150',['headQuaternionZ',['../interface_n_e_rtc_position_info.html#a9bfc2571b619bbd7d5b50040c93ceb34',1,'NERtcPositionInfo']]],
-  ['height_151',['height',['../interface_n_e_rtc_video_encode_configuration.html#ac5e2281804c203bb67fbcd297ac95088',1,'NERtcVideoEncodeConfiguration::height()'],['../interface_n_e_rtc_live_stream_user_transcoding.html#a5863cf4ce1f0a39e183f1629565568c5',1,'NERtcLiveStreamUserTranscoding::height()'],['../interface_n_e_rtc_live_stream_image_info.html#aa834887764537751222f8059b3e3bee6',1,'NERtcLiveStreamImageInfo::height()'],['../interface_n_e_rtc_live_stream_layout.html#aee56634a7a2e6c5bf328963acaf26979',1,'NERtcLiveStreamLayout::height()'],['../interface_n_e_rtc_video_frame.html#adab8abe3b19d32acaab1a35cb6d89046',1,'NERtcVideoFrame::height()'],['../interface_n_e_rtc_pre_decoder_video_info.html#acd5648d12dfeb8b82b04833a28089967',1,'NERtcPreDecoderVideoInfo::height()'],['../interface_n_e_rtc_video_encoded_frame.html#a0b371f00d63088069e975c78a2c90698',1,'NERtcVideoEncodedFrame::height()'],['../interface_n_e_rtc_video_layer_send_stats.html#ad3ee848a1bff927f6a3b856e7060efe4',1,'NERtcVideoLayerSendStats::height()'],['../interface_n_e_rtc_video_layer_recv_stats.html#a4fbec807c812e61ac588a5d7e3a4fd30',1,'NERtcVideoLayerRecvStats::height()']]]
+  ['iaudiodevicemanager_158',['IAudioDeviceManager',['../classnertc_1_1_i_audio_device_manager.html',1,'nertc']]],
+  ['idevicecollection_159',['IDeviceCollection',['../classnertc_1_1_i_device_collection.html',1,'nertc']]],
+  ['image_5fpaths_160',['image_paths',['../structnertc_1_1_n_e_rtc_video_watermark_image_config.html#a84b4530d56ab0a57d816d4bdb01a4c3d',1,'nertc::NERtcVideoWatermarkImageConfig']]],
+  ['image_5fwatermarks_161',['image_watermarks',['../structnertc_1_1_n_e_rtc_video_watermark_config.html#a75231df94a8408c9cabcb2b257f5b56a',1,'nertc::NERtcVideoWatermarkConfig']]],
+  ['inertcaudioframeobserver_162',['INERtcAudioFrameObserver',['../classnertc_1_1_i_n_e_rtc_audio_frame_observer.html',1,'nertc']]],
+  ['inertcpredecodeobserver_163',['INERtcPreDecodeObserver',['../classnertc_1_1_i_n_e_rtc_pre_decode_observer.html',1,'nertc']]],
+  ['inertcvideoencoderqosobserver_164',['INERtcVideoEncoderQosObserver',['../classnertc_1_1_i_n_e_rtc_video_encoder_qos_observer.html',1,'nertc']]],
+  ['initialize_165',['initialize',['../classnertc_1_1_i_rtc_engine.html#a1e816fd56f1cc6953a263f6798d0f1d4',1,'nertc::IRtcEngine']]],
+  ['initspatializer_166',['initSpatializer',['../classnertc_1_1_i_rtc_channel.html#a1f4a30c0749cd8fd82dde57796e86c2b',1,'nertc::IRtcChannel::initSpatializer()'],['../classnertc_1_1_i_rtc_engine_ex.html#a4cad276e2451c1db83595ccde648de5c',1,'nertc::IRtcEngineEx::initSpatializer()']]],
+  ['interrupted_5fplace_5fimage_167',['interrupted_place_image',['../structnertc_1_1_n_e_rtc_live_config.html#ab6a8f2f78341a2135c3e3cc475fabecd',1,'nertc::NERtcLiveConfig']]],
+  ['introduction_168',['Introduction',['../index.html',1,'']]],
+  ['irtcchannel_169',['IRtcChannel',['../classnertc_1_1_i_rtc_channel.html',1,'nertc']]],
+  ['irtcchanneleventhandler_170',['IRtcChannelEventHandler',['../classnertc_1_1_i_rtc_channel_event_handler.html',1,'nertc']]],
+  ['irtcengine_171',['IRtcEngine',['../classnertc_1_1_i_rtc_engine.html',1,'nertc']]],
+  ['irtcengineeventhandler_172',['IRtcEngineEventHandler',['../classnertc_1_1_i_rtc_engine_event_handler.html',1,'nertc']]],
+  ['irtcengineeventhandlerex_173',['IRtcEngineEventHandlerEx',['../classnertc_1_1_i_rtc_engine_event_handler_ex.html',1,'nertc']]],
+  ['irtcengineex_174',['IRtcEngineEx',['../classnertc_1_1_i_rtc_engine_ex.html',1,'nertc']]],
+  ['irtcmediastatsobserver_175',['IRtcMediaStatsObserver',['../classnertc_1_1_i_rtc_media_stats_observer.html',1,'nertc']]],
+  ['is_5fkey_5fframe_176',['is_key_frame',['../structnertc_1_1_n_e_rtc_pre_decode_video_info.html#a49e3e837b8f06d18ee3dcc743ddb2fab',1,'nertc::NERtcPreDecodeVideoInfo']]],
+  ['is_5fmain_5fstream_177',['is_main_stream',['../structnertc_1_1_n_e_rtc_pre_decode_frame_info.html#a6a6effefd8e1b654ca45842c2b3f1676',1,'nertc::NERtcPreDecodeFrameInfo']]],
+  ['isopenbeauty_178',['isOpenBeauty',['../interface_n_e_rtc_beauty.html#a7dc8895e201f0ead7eb08e9a1aab1342',1,'NERtcBeauty']]],
+  ['ivideodevicemanager_179',['IVideoDeviceManager',['../classnertc_1_1_i_video_device_manager.html',1,'nertc']]]
 ];

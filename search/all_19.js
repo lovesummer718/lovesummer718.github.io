@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y_1326',['y',['../interface_n_e_rtc_live_stream_user_transcoding.html#a92d38d9eee9cb72d41877626fee52d33',1,'NERtcLiveStreamUserTranscoding::y()'],['../interface_n_e_rtc_live_stream_image_info.html#aed1dcda79ec7564027b534b717926a10',1,'NERtcLiveStreamImageInfo::y()']]]
+  ['z_5forder_1227',['z_order',['../structnertc_1_1_n_e_rtc_live_stream_user_transcoding.html#a9bcc5fb07568efc34733ac6ee623678b',1,'nertc::NERtcLiveStreamUserTranscoding::z_order()'],['../structnertc_1_1_n_e_rtc_live_stream_image_info.html#aa07fe36b4db7f32e6268a9cb4793d6dc',1,'nertc::NERtcLiveStreamImageInfo::z_order()']]]
 ];

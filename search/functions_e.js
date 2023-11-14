@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['takelocalsnapshot_3acallback_3a_1782',['takeLocalSnapshot:callback:',['../protocol_i_n_e_rtc_channel-p.html#a7b4c6f620915b220f079b874024fd3c2',1,'INERtcChannel-p::takeLocalSnapshot:callback:()'],['../protocol_i_n_e_rtc_engine_ex-p.html#a893c16a3792b3a694c7317860c994aa8',1,'INERtcEngineEx-p::takeLocalSnapshot:callback:()']]],
-  ['takeremotesnapshot_3aforuserid_3acallback_3a_1783',['takeRemoteSnapshot:forUserID:callback:',['../protocol_i_n_e_rtc_channel-p.html#ac62e3c837066f2c08146aadfb7938e15',1,'INERtcChannel-p::takeRemoteSnapshot:forUserID:callback:()'],['../protocol_i_n_e_rtc_engine_ex-p.html#a2e239c92b90284905d103a601419fa6c',1,'INERtcEngineEx-p::takeRemoteSnapshot:forUserID:callback:()']]]
+  ['takelocalsnapshot_1601',['takeLocalSnapshot',['../classnertc_1_1_i_rtc_channel.html#a605e0480cb41fcc692f5eb6b1ca28cb9',1,'nertc::IRtcChannel::takeLocalSnapshot()'],['../classnertc_1_1_i_rtc_engine_ex.html#a0c64c195919c2fb4c98ad32f1057afc6',1,'nertc::IRtcEngineEx::takeLocalSnapshot()']]],
+  ['takeremotesnapshot_1602',['takeRemoteSnapshot',['../classnertc_1_1_i_rtc_channel.html#af85102b0bc44d35050693eeea4c9f79f',1,'nertc::IRtcChannel::takeRemoteSnapshot()'],['../classnertc_1_1_i_rtc_engine_ex.html#a28966129e4f879209bf06e01617fa50a',1,'nertc::IRtcEngineEx::takeRemoteSnapshot()']]]
 ];

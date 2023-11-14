@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['cleanupchannelmediastatsobserver_1447',['cleanupChannelMediaStatsObserver',['../protocol_i_n_e_rtc_channel-p.html#ae31cd230b637768a88f3a4018ba42aa0',1,'INERtcChannel-p']]],
-  ['cleanupenginemediastatsobserver_1448',['cleanupEngineMediaStatsObserver',['../protocol_i_n_e_rtc_engine_ex-p.html#ab68703f2bf2e977447dd9265feeb10d9',1,'INERtcEngineEx-p']]],
-  ['connectionstate_1449',['connectionState',['../protocol_i_n_e_rtc_channel-p.html#a64313a074ae31d3226b21c929f7d93a6',1,'INERtcChannel-p::connectionState()'],['../protocol_i_n_e_rtc_engine-p.html#a2bc8a0d82bdd1ae2a98e64ae42909f9a',1,'INERtcEngine-p::connectionState()']]],
-  ['createchannel_3a_1450',['createChannel:',['../protocol_i_n_e_rtc_engine_ex-p.html#abb25ba1cb1d7eea1ccfcbcd11d83cf68',1,'INERtcEngineEx-p']]]
+  ['destroy_1333',['destroy',['../classnertc_1_1_i_device_collection.html#adb5ddaceb61f616164b221587907e274',1,'nertc::IDeviceCollection']]],
+  ['destroynertcengine_1334',['destroyNERtcEngine',['../group__create_n_e_rtc_engine.html#ga85f37bd2b9f86d5aa94943981892329a',1,'nertc_engine.h']]]
 ];

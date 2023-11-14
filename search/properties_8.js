@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['jaw_2479',['jaw',['../interface_n_e_rtc_beauty.html#a933dc288a3f3d6ee95812181847cf376',1,'NERtcBeauty']]],
-  ['jitter_2480',['jitter',['../interface_n_e_rtc_lastmile_probe_one_way_result.html#aa5888c1ef96d0a52414d20c621df2671',1,'NERtcLastmileProbeOneWayResult']]]
+  ['mouth_2396',['mouth',['../interface_n_e_rtc_beauty.html#a2dff12b0f10109cec1a5133019e2f52c',1,'NERtcBeauty']]],
+  ['mouthangle_2397',['mouthAngle',['../interface_n_e_rtc_beauty.html#ac80589b857c665f170f69b186c2499ea',1,'NERtcBeauty']]],
+  ['mouthwiderstrength_2398',['mouthWiderStrength',['../interface_n_e_rtc_beauty.html#a46c658f490ca2f0e82bf9f148df39f99',1,'NERtcBeauty']]]
 ];
